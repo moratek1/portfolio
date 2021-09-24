@@ -11,14 +11,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
 	
-<script>
-  var audio = document.getElementById("playSound()");
-  audio.volume = 0.1;
-  let playSound = () => new Audio("/123.mp3").play();
-</script>
-
-
-
 <section class="showcase">
 			<div class="video-container">
 				<video src="https://cdn.discordapp.com/attachments/552216436492468257/891046731775631380/Doug_Walker_crying_on_the_computer_Extended_HD.mp4" autoplay muted loop></video>
@@ -28,6 +20,13 @@
         			<p class="ccc" onclick="playSound()">soon™</p>
 			</div>
 </section>
+	
+<script>
+  let playSound = () => new Audio("/123.mp3").play()
+  var audio = document.getElementById("playSound()");
+  audio.volume = 0.1;
+</script>
+
 <!-- partial -->
   
 </body>
