@@ -24,7 +24,14 @@
 <script>
   let playSound = () => new Audio("/123.mp3").play()
 </script>
+	
+<script>
+  Audio("/123.mp3").loop=true;
+</script>
 
+<script>
+  playSound("/123.mp3").loop=true;
+</script>
 <!-- partial -->
   
 </body>
