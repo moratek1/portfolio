@@ -77,8 +77,6 @@ h1 {
   -o-filter: blur(2px);
   -ms-filter: blur(2px);
   filter: blur(6px) grayscale(100%);
-	background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
-		center/cover;
 }
 
 .video-container video {
